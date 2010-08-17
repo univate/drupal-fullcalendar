@@ -1,0 +1,9 @@
+; $Id$
+name = Full Calendar
+description = Creates a views plugin for displaying a jquery fullcalendar.
+dependencies[] = views
+dependencies[] = jquery_ui
+package = Views
+core = 6.x
+php = 5.0
+
