@@ -4,6 +4,7 @@
 function fullcalendar_views_plugins() {
   drupal_add_css(drupal_get_path('module', 'fullcalendar') .'/fullcalendar.css');
   drupal_add_js(drupal_get_path('module', 'fullcalendar') .'/fullcalendar.js');
+  drupal_add_js(drupal_get_path('module', 'fullcalendar') .'/fullcalendar_views.js');
   jquery_ui_add(array('ui.draggable', 'ui.droppable', 'ui.resizable'));
 
   return array(

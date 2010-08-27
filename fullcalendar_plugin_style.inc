@@ -18,7 +18,7 @@ class fullcalendar_plugin_style extends views_plugin_style {
 
   function options_form(&$form, &$form_state) {
     parent::options_form($form, $form_state);
-    dsm($this->view);
+    //dsm($this->view);
     $display = $this->view->current_display;
     $fields = $this->view->display[$display]->display_options['fields'];
     if (empty($fields)) {

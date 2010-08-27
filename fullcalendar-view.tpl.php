@@ -1,7 +1,3 @@
-<div class="item-list">
-</div>
-
-
 <div class="external-events">
   <?php if (!empty($title)) : ?>
     <h3><?php print $title; ?></h3>
